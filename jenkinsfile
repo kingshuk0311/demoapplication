@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Git_push'){
             steps{
-                git https://github.com/kingshuk0311/demoapplication.git
+                git branch: 'ver-2', url: 'https://github.com/kingshuk0311/demoapplication.git'
             }
 
         }
