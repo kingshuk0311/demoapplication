@@ -1,0 +1,11 @@
+pipeline{
+    agent any 
+    stages{
+        stage('Git_push'){
+            steps{
+                git https://github.com/kingshuk0311/demoapplication.git
+            }
+
+        }
+    }
+}
